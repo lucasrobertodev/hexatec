@@ -8,12 +8,14 @@ Consiste en una página web estática (HTML, CSS y JS) contenida dentro de un co
 
 ## Estructura del proyecto
 
-```
+
 Hexatec/
-├── index.html
-├── style.css
-├── script.js
+├── assets
+├── images
 ├── Dockerfile
+├── elements.html
+├── generic.html
+├── index.html
 └── README.md
 
 Docker: Cómo ejecutar el proyecto
@@ -25,6 +27,7 @@ cd mi-app-estatica
 
 ⚠️ Asegurate de tener Docker Desktop instalado y funcionando en tu sistema.
 
+---
 
 ### 2. Construir la imagen Docker
 
@@ -32,6 +35,7 @@ docker build -t mi-app-estatica .
 
 Esto creará una imagen llamada `mi-app-estatica` usando la configuración definida en el `Dockerfile`.
 
+---
 
 ### 3. Ejecutar el contenedor
 
