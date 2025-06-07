@@ -24,7 +24,7 @@ Docker: Cómo ejecutar el proyecto
 
 ```bash
 git clone https://github.com/lucasrobertodev/hexatec.git
-cd mi-app-estatica
+cd hexatec
 ```
 ⚠️ Asegurate de tener Docker Desktop instalado y funcionando en tu sistema.
 
@@ -32,15 +32,15 @@ cd mi-app-estatica
 
 ### 2. Construir la imagen Docker
 ```bash
-docker build -t mi-app-estatica .
+docker build -t hexatec .
 ```
-Esto creará una imagen llamada `mi-app-estatica` usando la configuración definida en el `Dockerfile`.
+Esto creará una imagen llamada `hexatec` usando la configuración definida en el `Dockerfile`.
 
 ---
 
 ### 3. Ejecutar el contenedor
 ```bash
-docker run -d -p 8080:80 mi-app-estatica
+docker run -d -p 8080:80 hexatec
 ```
 Esto ejecutará la app en segundo plano y estará disponible en el navegador en:
 
